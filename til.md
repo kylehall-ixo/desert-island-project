@@ -25,3 +25,4 @@ to static websites
 * VS Code can generate Azure Functions for you.
 * Azure Functions only run locally with VS Code. Running the same commands from the command line will not get you a working Function
 * Ignore the instructions on getting started with Azure and Python. The dependencies weren't installed, so nothing worked. Just use VS Code to create the Dunction instead.
+* I was able to click around in the Azure portal and create a resource group, and a function app. Then, I deployed my function to that function app from VS Code. I don't see the option from the portal to connect the function app to a repository.
