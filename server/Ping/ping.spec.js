@@ -1,7 +1,13 @@
 const expect = require('chai').expect
 
-describe('Placeholder', () => {
-    it('should exist in place of real tests', () => {
-        expect(true).to.equal(true)
+const ping = require('./ping')
+
+describe('Ping', () => {
+    it('should return Pong!', () => {
+        const context = { log: () => {}}
+
+        ping(context)
+
+        expect(context.res.body).to.equal('Pong!')
     })
 })
